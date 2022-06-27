@@ -1,10 +1,12 @@
-import { BoxTechs, Container, Content, Link } from "./styles";
+import { BoxLink, BoxTechs, Container, Content, Link } from "./styles";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
+import "./styles.css";
 import { useContext } from "react";
 import { DataContext } from "../../providers/Data/data";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const Projects = () => {
   const { database } = useContext(DataContext);
@@ -17,7 +19,8 @@ const Projects = () => {
       <Swiper
         navigation={true}
         modules={[Navigation]}
-        style={{ maxWidth: "768px", marginTop: "5rem" }}
+        // style={{ maxWidth: "768px", marginTop: "5rem" }}
+        className="swiperContainer"
       >
         {projects.map((projeto, index) => (
           <SwiperSlide key={index}>
@@ -29,14 +32,15 @@ const Projects = () => {
                   <li key={index}>{tech}</li>
                 ))}
               </BoxTechs>
-              <div>
+              <BoxLink>
                 <Link href={projeto.github} target="_blank">
                   Repositório
                 </Link>
-                <Link href={projeto.application} target="_blank">
+                <Link href={projeto.application} target="_blank" Visit>
                   Visitar
+                  <BsBoxArrowUpRight />
                 </Link>
-              </div>
+              </BoxLink>
             </Content>
           </SwiperSlide>
         ))}

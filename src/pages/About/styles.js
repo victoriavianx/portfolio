@@ -59,7 +59,11 @@ export const TextField = styled.div`
 `;
 
 export const Text = styled.p`
-  font-size: 1rem;
+  font-size: 0.95rem;
   text-align: justify;
   margin: 0.5rem;
+
+  @media (min-width: 426px) {
+    font-size: 1rem;
+  }
 `;

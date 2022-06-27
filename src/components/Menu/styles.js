@@ -41,12 +41,12 @@ export const Container = styled.div`
     top: 15rem;
     right: 1rem;
     width: 50px;
-    height: 450px;
+    height: 400px;
     margin: 0 0.5rem 0 0;
 
     ul {
       width: 5rem;
-      height: 400px;
+      height: 350px;
       padding-right: 5rem;
       flex-direction: column;
     }

@@ -5,6 +5,7 @@ import Home from "../pages/Home/home";
 import Skills from "../pages/Skills/skills";
 import Footer from "../components/Footer/footer";
 import Projects from "../pages/Projects/projects";
+import Contact from "../pages/Contact/contact";
 
 const Router = () => {
   return (
@@ -19,6 +20,9 @@ const Router = () => {
         </Route>
         <Route exact path={"/projetos"}>
           <Projects />
+        </Route>
+        <Route exact path={"/contato"}>
+          <Contact />
         </Route>
       </Switch>
       <Footer />
