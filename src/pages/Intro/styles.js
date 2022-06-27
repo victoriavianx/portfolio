@@ -25,6 +25,10 @@ export const Content = styled.div`
     font-size: 0.9rem;
   }
 
+  div {
+    margin: 4rem auto 0 auto;
+  }
+
   @media (min-width: 768px) {
     h1 {
       font-size: 2rem;
@@ -33,6 +37,41 @@ export const Content = styled.div`
     h3 {
       font-size: 1.1rem;
     }
+  }
+`;
+
+export const ImageBox = styled.div`
+  justify-self: center;
+  width: 190px;
+  height: 353px;
+  background: linear-gradient(
+    180deg,
+    var(--hover-color),
+    var(--background-dark-mode)
+  );
+  border-radius: 10rem 10rem 0.5rem 0.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+
+  @media (min-width: 768px) {
+    width: 240px;
+    height: 453px;
+  }
+`;
+
+export const Imagem = styled.img`
+  width: 190px;
+  filter: grayscale(1);
+  transition: 0.5s;
+
+  :hover {
+    filter: none;
+  }
+
+  @media (min-width: 768px) {
+    width: 240px;
   }
 `;
 

@@ -1,8 +1,17 @@
-import { Box, Container, Content, ScrollDown, SocialMedia } from "./styles";
+import {
+  Box,
+  Container,
+  Content,
+  ImageBox,
+  Imagem,
+  ScrollDown,
+  SocialMedia,
+} from "./styles";
 import { FiChevronsDown } from "react-icons/fi";
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 import { useContext } from "react";
 import { DataContext } from "../../providers/Data/data";
+import Image from "../../assets/eu-fundo-removido.png";
 
 const Intro = () => {
   const { database } = useContext(DataContext);
@@ -19,6 +28,12 @@ const Intro = () => {
           <span>Olá, meu nome é</span>
           <h1>{name}</h1>
           <h3>{career}</h3>
+
+          <div>
+            <ImageBox>
+              <Imagem src={Image} alt="eu" />
+            </ImageBox>
+          </div>
         </Content>
       </Box>
       <div>
@@ -40,9 +55,9 @@ const Intro = () => {
           </li>
         </SocialMedia>
       </div>
-      <ScrollDown>
+      {/* <ScrollDown>
         <FiChevronsDown />
-      </ScrollDown>
+      </ScrollDown> */}
     </Container>
   );
 };
