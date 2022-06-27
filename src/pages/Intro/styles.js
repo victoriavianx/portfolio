@@ -102,6 +102,16 @@ export const SocialMedia = styled.div`
     transform: rotate(90deg) translate(16px, 10px);
   }
 
+  @media (min-width: 768px) {
+    svg {
+      font-size: 1.5rem;
+    }
+
+    ::after {
+      width: 45px;
+    }
+  }
+
   @media (min-width: 1440px) {
     margin-left: 15rem;
   }
