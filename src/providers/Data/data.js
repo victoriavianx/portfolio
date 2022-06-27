@@ -22,6 +22,25 @@ export const DataProvider = ({ children }) => {
       ],
       backend: ["NodeJS", " Express", "PostgreSQL", "Docker"],
     },
+    projects: [
+      {
+        name: "Nukenzie",
+        description:
+          "Nukenzie é um projeto simples para simular a organização de sua vida financeira. O projeto tem uma interface descomplicada e limpa, além de ser responsiva, é fácil de utilizar.",
+        tools: ["JavaScript", "ReactJS", "Styled-Components"],
+        github: "https://github.com/victoriavianx/projeto-nukenzie",
+        application: "https://nukenzie.netlify.app/",
+      },
+      {
+        name: "Kenziehub",
+        description:
+          "Kenziehub é um projeto para anotar as tecnologias que o usuário está aprendendo, podendo atualizar o status do aprendizado ou excluir a tecnologia.",
+        tools: ["ReactJS", "React Hook Form/Yup", "Axios", "Styled-Components"],
+        github: "https://github.com/victoriavianx/projeto-kenziehub",
+        application:
+          "https://react-entrega-s2-kenzie-hub-victoriavianx.vercel.app/",
+      },
+    ],
   };
 
   return (

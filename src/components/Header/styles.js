@@ -24,7 +24,8 @@ export const Logo = styled.a`
   letter-spacing: 2px;
 
   :hover {
-    color: var(--hover-color);
+    color: var(--title-color);
+    transition: 0.5s;
   }
 `;
 

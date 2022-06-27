@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
+  margin-top: 1rem;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  span {
+    margin-top: 1.5rem;
+  }
 
   h3 {
     font-size: 1.75rem;
@@ -47,6 +52,10 @@ export const TextField = styled.div`
   width: 80%;
   margin: 3rem 0;
   max-width: 768px;
+
+  @media (max-width: 768px) {
+    max-width: 678px;
+  }
 `;
 
 export const Text = styled.p`

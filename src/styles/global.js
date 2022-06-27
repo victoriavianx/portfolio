@@ -6,7 +6,6 @@
 // .color5 { #f68dff };
 // .color6 { #fde6ff };
 // .color6 { #240e61 };
-// #4F3E80
 
 /* Fonte */
 // font-family: 'Poppins', sans-serif;
@@ -40,6 +39,19 @@ export const GlobalStyles = createGlobalStyle`
     body {
         background-color: var(--background-dark-mode);
         color: var(--font-light-color);
+    }
+
+    body::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: var(--background-dark-mode)
+    }
+
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: var(--hover-color)
     }
 
     h1, h2, h3 {

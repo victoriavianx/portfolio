@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
 export const Container = styled.footer`
-  display: hidden;
+  margin-top: 5rem;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #db73f9;
 
   span {
-    display: none;
     color: var(--font-dark-color);
   }
 
-  @media (min-width: 500px) {
-    margin-top: 5rem;
-    position: static;
-    bottom: 0;
-    width: 100%;
-    height: 300px;
-    background-color: #db73f9;
+  @media (max-width: 320px) {
+    margin-top: 15rem;
+  }
 
+  @media (min-width: 500px) {
     span {
+      display: unset;
       margin: auto;
       font-size: 0.85rem;
       color: var(--font-dark-color);
@@ -31,7 +33,7 @@ export const Content = styled.div`
   margin: auto;
 
   h1 {
-    margin: 5rem 3rem 3rem 3rem;
+    margin: 5rem 3rem 2rem 3rem;
     font-size: 1rem;
     color: var(--font-dark-color);
     font-weight: var(--font-medium);

@@ -38,9 +38,10 @@ export const Content = styled.div`
   max-height: 340px;
 
   h3 {
-    padding: 1rem;
+    margin: 1rem 3.5rem;
     font-size: 1rem;
     text-align: center;
+    background-color: var(--background-dark-mode);
   }
 
   ul {
@@ -56,6 +57,18 @@ export const Content = styled.div`
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 948px) {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+
+    h3 {
+      height: 10px;
+    }
+
+    ul {
+      li {
+        margin-top: 1.2rem;
+      }
+    }
   }
 `;

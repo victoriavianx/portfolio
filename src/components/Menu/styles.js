@@ -24,7 +24,12 @@ export const Container = styled.div`
         border-radius: 5rem;
 
         :hover {
-          background-color: #240e61;
+          transition: 0.5s;
+          background-color: var(--background-dark-mode);
+        }
+
+        :focus {
+          background-color: var(--background-dark-mode);
         }
       }
     }

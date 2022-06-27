@@ -45,8 +45,13 @@ export const SocialMedia = styled.div`
 
   svg {
     margin: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--hover-color);
+
+    :hover {
+      color: var(--background-light-mode);
+      transition: 0.5s;
+    }
   }
 
   ::after {
@@ -66,9 +71,10 @@ export const SocialMedia = styled.div`
 export const ScrollDown = styled.div`
   position: absolute;
   bottom: 10rem;
-  left: 48vw;
+  left: 47.5vw;
 
   svg {
+    color: var(--hover-color);
     font-size: 2rem;
   }
 
