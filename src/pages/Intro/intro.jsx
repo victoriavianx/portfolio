@@ -39,17 +39,17 @@ const Intro = () => {
       <div>
         <SocialMedia>
           <li>
-            <a href={linkedin}>
+            <a href={linkedin} target="_blank">
               <BsLinkedin />
             </a>
           </li>
           <li>
-            <a href={github}>
+            <a href={github} target="_blank">
               <BsGithub />
             </a>
           </li>
           <li>
-            <a href={instagram}>
+            <a href={instagram} target="_blank">
               <BsInstagram />
             </a>
           </li>

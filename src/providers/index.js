@@ -1,5 +1,10 @@
 import { DataProvider } from "./Data/data";
+import ThemesProvider from "./Theme/theme";
 
 export const Providers = ({ children }) => {
-  return <DataProvider>{children}</DataProvider>;
+  return (
+    <ThemesProvider>
+      <DataProvider>{children}</DataProvider>
+    </ThemesProvider>
+  );
 };

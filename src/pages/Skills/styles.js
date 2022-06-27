@@ -60,9 +60,10 @@ export const Content = styled.div`
   @media (min-width: 948px) {
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
     h3 {
-      height: 10px;
+      height: 9px;
     }
 
     ul {

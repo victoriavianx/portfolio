@@ -6,7 +6,8 @@ export const Container = styled.header`
   width: 100%;
   height: 3.5rem;
   margin: 1rem;
-  background-color: var(--background-dark-mode);
+  background-color: ${(props) => props.theme.header.backgroundColor};
+  transition: 0.4s;
   max-width: 1024px;
 `;
 
@@ -19,7 +20,7 @@ export const NavBox = styled.nav`
 `;
 
 export const Logo = styled.a`
-  color: var(--font-light-color);
+  color: ${(props) => props.theme.header.color};
   font-weight: var(--font-medium);
   letter-spacing: 2px;
 

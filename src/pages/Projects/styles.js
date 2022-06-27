@@ -69,14 +69,14 @@ export const Link = styled.a`
   margin: 0 1rem 0 0;
   padding: ${(props) => (props.Visit ? "5px 5px 5px 5px" : "5px 5px")};
   border-radius: 5px;
-  //background-color: var(--hover-color);
   color: var(--font-light-mode);
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
   transition: 0.4s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
   :hover {
-    background-color: var(--hover-color);
+    background-color: var(--title-color);
   }
 
   svg {

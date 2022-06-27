@@ -20,7 +20,7 @@ export const Content = styled.div`
   }
 
   h3 {
-    color: var(--font-light-color);
+    color: ${(props) => props.theme.h3.color};
     font-weight: 500;
     font-size: 0.9rem;
   }
@@ -88,7 +88,7 @@ export const SocialMedia = styled.div`
     color: var(--hover-color);
 
     :hover {
-      color: var(--background-light-mode);
+      color: ${(props) => props.theme.svg.color};
       transition: 0.5s;
     }
   }

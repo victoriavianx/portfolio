@@ -6,10 +6,10 @@ export const Container = styled.footer`
   bottom: 0;
   width: 100%;
   height: 250px;
-  background-color: #db73f9;
+  background-color: #b894fc;
 
   span {
-    color: var(--font-dark-color);
+    color: ${(props) => props.theme.span.color};
   }
 
   @media (max-width: 320px) {
@@ -21,7 +21,7 @@ export const Container = styled.footer`
       display: unset;
       margin: auto;
       font-size: 0.85rem;
-      color: var(--font-dark-color);
+      color: ${(props) => props.theme.span.color};
     }
   }
 `;
@@ -35,7 +35,7 @@ export const Content = styled.div`
   h1 {
     margin: 5rem 3rem 2rem 3rem;
     font-size: 1rem;
-    color: var(--font-dark-color);
+    color: ${(props) => props.theme.h1.color};
     font-weight: var(--font-medium);
     letter-spacing: 2px;
   }

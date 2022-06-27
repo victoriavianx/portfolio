@@ -37,19 +37,23 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background-color: var(--background-dark-mode);
-        color: var(--font-light-color);
+        background-color: ${(props) => props.theme.backgroundColor};
+        color: ${(props) => props.theme.color};
+        transition: .4s;
     }
 
     body::-webkit-scrollbar {
         width: 8px;
+        transition: .4s;
     }
 
     body::-webkit-scrollbar-track {
-        background: var(--background-dark-mode)
+        background: ${(props) => props.theme.backgroundColor};
+        
     }
 
     body::-webkit-scrollbar-thumb {
+        
         border-radius: 10px;
         background-color: var(--hover-color)
     }
@@ -83,8 +87,8 @@ export const GlobalStyles = createGlobalStyle`
         --background-dark-mode: #240e61;
         --font-light-color: #fde6ff;
         --font-dark-color: #240e61;
-        --title-color: #f68dff;
-        --hover-color: #bf58f4;
+        --title-color: #b894fc;
+        --hover-color: #8823e8;
 
         --body-font: 'Poppins', sans-serif;
         --font-medium: 500;
