@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+## ![Logo-Portfolio]("file:///home/victoriavianx/Imagens/Capturas%20de%20tela/logo-portfolio.png")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Olá, bem-vind ao meu portfólio :)*
 
-## Available Scripts
+Estou muito feliz em ter desenvolvido meu próprio portfólio, pude colocar um pouco do meu aprendizado em prática e estou satisfeita com o resultado (por enquanto).
 
-In the project directory, you can run:
+→ *[Clique aqui para acessar o app](https://victoriavianx.netlify.app/)*
 
-### `yarn start`
+## 💻 Desenvolvimento
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O projeto foi desenvolvido com ReactJS, trabalhando com rotas do React Router Dom e o hook de gerenciamento de estados globais ContextAPI, além disso o portfólio foi todo estilizado com a lib Styled-Components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📎 Features
+  - Página Home, com informações sobre mim
+  - Página Skills, cards com as tecnologias que aprendi e estou aprendendo
+  - Página Projects, onde estão os projetos que já produzi
+  - Dark/Light Theme
 
-### `yarn test`
+## 🛠️ Ferramentas
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React Router Dom](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Styled-Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 Features Futuras
+  - Página de contato, com formulário para entrar em contato comigo
+  
+<hr/>  
+  
+#### Obrigada por chegar até aqui!
+Feito com ❤️ por [Victoria](https://github.com/victoriavianx)
