@@ -49,7 +49,7 @@ export const ImageBox = styled.div`
     var(--hover-color),
     var(--background-dark-mode)
   );
-  border-radius: 10rem 10rem 0.5rem 0.5rem;
+  border-radius: 1rem 1rem 0.5rem 0.5rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -63,12 +63,7 @@ export const ImageBox = styled.div`
 
 export const Imagem = styled.img`
   width: 190px;
-  filter: grayscale(1);
-  transition: 0.5s;
-
-  :hover {
-    filter: none;
-  }
+  filter: saturate(1.3);
 
   @media (min-width: 768px) {
     width: 240px;

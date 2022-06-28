@@ -42,6 +42,7 @@ export const ImageBox = styled.figure`
   align-items: center;
 
   img {
+    filter: saturate(1.3);
     width: 10rem;
     height: 10rem;
     border-radius: 100px;
