@@ -1,4 +1,4 @@
-## ![Logo-Portfolio]("file:///home/victoriavianx/Imagens/Capturas%20de%20tela/logo-portfolio.png")
+## ![Logo-Portfolio](src/assets/logo-portfolio.png)
 
 *Olá, bem-vind ao meu portfólio :)*
 
