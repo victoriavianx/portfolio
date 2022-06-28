@@ -37,8 +37,7 @@ export const DataProvider = ({ children }) => {
           "Kenziehub é um projeto para anotar as tecnologias que o usuário está aprendendo, podendo atualizar o status do aprendizado ou excluir a tecnologia.",
         tools: ["ReactJS", "React Hook Form/Yup", "Axios", "Styled-Components"],
         github: "https://github.com/victoriavianx/projeto-kenziehub",
-        application:
-          "https://react-entrega-s2-kenzie-hub-victoriavianx.vercel.app/",
+        application: "https://kenzie-hub.netlify.app/",
       },
     ],
   };
