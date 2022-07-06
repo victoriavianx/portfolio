@@ -7,8 +7,8 @@ export const Container = styled.div`
   width: 90%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
-  max-width: 678px;
   margin: 1rem;
+  max-width: 370px;
 
   ul {
     display: flex;
@@ -38,8 +38,8 @@ export const Container = styled.div`
   @media (min-width: 768px) {
     display: flex;
     align-items: center;
-    top: 15rem;
-    right: 1rem;
+    top: 18rem;
+    right: 1.5rem;
     width: 50px;
     height: 400px;
     margin: 0 0.5rem 0 0;
@@ -52,7 +52,23 @@ export const Container = styled.div`
     }
   }
 
+  @media (min-width: 1024px) {
+    top: 9.5rem;
+    right: 3rem;
+    height: 370px;
+
+    ul {
+      height: 300px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    top: 15rem;
+    right: 10rem;
+  }
+
   @media (min-width: 1440px) {
-    margin: 0 10rem 0 0;
+    top: 17rem;
+    right: 13rem;
   }
 `;

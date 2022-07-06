@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: 90vh;
-  max-height: 850px;
 `;
 
 export const Box = styled.div`
@@ -72,7 +70,7 @@ export const Imagem = styled.img`
 
 export const SocialMedia = styled.div`
   position: absolute;
-  bottom: 15rem;
+  bottom: 5rem;
   left: 1.5rem;
   display: grid;
   row-gap: 0.5rem;
@@ -97,7 +95,15 @@ export const SocialMedia = styled.div`
     transform: rotate(90deg) translate(16px, 10px);
   }
 
+  @media (min-width: 390px) {
+    left: 2rem;
+    bottom: 12rem;
+  }
+
   @media (min-width: 768px) {
+    bottom: 15rem;
+    left: 3.5rem;
+
     svg {
       font-size: 1.5rem;
     }
@@ -107,8 +113,26 @@ export const SocialMedia = styled.div`
     }
   }
 
+  @media (min-width: 820px) {
+    bottom: 25rem;
+  }
+
+  @media (min-width: 912px) {
+    bottom: 35rem;
+  }
+
+  @media (min-width: 1024px) {
+    bottom: 5rem;
+  }
+
+  @media (min-width: 1280px) {
+    margin-left: 9.5rem;
+  }
+
   @media (min-width: 1440px) {
-    margin-left: 15rem;
+    bottom: 10rem;
+    margin-left: 0;
+    left: 15rem;
   }
 `;
 

@@ -30,9 +30,7 @@ const Intro = () => {
           <h3>{career}</h3>
 
           <div>
-            <ImageBox>
-              <Imagem src={Image} alt="eu" />
-            </ImageBox>
+            <ImageBox>{/* <Imagem src={Image} alt="eu" /> */}</ImageBox>
           </div>
         </Content>
       </Box>

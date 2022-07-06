@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 1rem;
+  margin-top: 6rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -19,10 +19,6 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  @media (min-width: 768px) {
-    height: 80vh;
   }
 `;
 
