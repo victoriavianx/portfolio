@@ -5,7 +5,9 @@
 // .color4 { #db73f9 };
 // .color5 { #f68dff };
 // .color6 { #fde6ff };
-// .color6 { #240e61 };
+// .color7 { #a097f7 };
+// .color8 { #5e17eb };
+// .color9 { #240e61 };
 
 /* Fonte */
 // font-family: 'Poppins', sans-serif;
@@ -87,8 +89,8 @@ export const GlobalStyles = createGlobalStyle`
         --background-dark-mode: #240e61;
         --font-light-color: #fde6ff;
         --font-dark-color: #240e61;
-        --title-color: #b894fc;
-        --hover-color: #8823e8;
+        --title-color: #a097f7;
+        --hover-color: #5e17eb;
 
         --body-font: 'Poppins', sans-serif;
         --font-medium: 500;

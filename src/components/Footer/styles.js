@@ -6,7 +6,7 @@ export const Container = styled.footer`
   bottom: 0;
   width: 100%;
   height: 290px;
-  background-color: #b894fc;
+  background-color: var(--title-color);
 
   span {
     color: ${(props) => props.theme.span.color};
