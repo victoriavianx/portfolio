@@ -36,4 +36,8 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (min-width: 768px) {
+    margin-bottom: 3rem;
+  }
 `;

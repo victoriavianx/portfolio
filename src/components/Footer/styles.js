@@ -5,7 +5,10 @@ export const Container = styled.footer`
   position: static;
   bottom: 0;
   width: 100%;
-  height: 290px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: var(--title-color);
 
   span {
@@ -27,17 +30,22 @@ export const Container = styled.footer`
 `;
 
 export const Content = styled.div`
+  width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: auto;
+  justify-content: space-between;
+  max-width: 1024px;
 
   h1 {
-    margin: 5rem 3rem 2rem 3rem;
-    font-size: 1rem;
+    margin: auto;
+    font-size: 0.6rem;
     color: ${(props) => props.theme.h1.color};
     font-weight: var(--font-medium);
     letter-spacing: 2px;
+  }
+
+  span {
+    font-size: 0.6rem;
+    margin: auto;
   }
 `;
 
