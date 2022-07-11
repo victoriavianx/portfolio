@@ -31,7 +31,7 @@ export const Content = styled.div`
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
-  border: 1px solid #fde6ff;
+  border: 1px solid ${(props) => props.theme.border.color};
   border-radius: 8px;
   max-width: 340px;
   max-height: 340px;

@@ -17,6 +17,9 @@ const lightTheme = {
   svg: {
     color: "var(--font-dark-color)",
   },
+  border: {
+    color: "var(--font-dark-color)",
+  },
 };
 
 const darkTheme = {
@@ -36,6 +39,9 @@ const darkTheme = {
     color: "var(--font-light-color)",
   },
   svg: {
+    color: "var(--font-light-color)",
+  },
+  border: {
     color: "var(--font-light-color)",
   },
 };
