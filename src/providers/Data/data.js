@@ -39,6 +39,20 @@ export const DataProvider = ({ children }) => {
         github: "https://github.com/victoriavianx/projeto-kenziehub",
         application: "https://kenzie-hub.netlify.app/",
       },
+      {
+        name: "Burguer",
+        description:
+          "Burguer é um projeto aspirante a ecommerce de hamburgueres, o usuário consegue adicionar produtos no carrinho, excluí-los e aumentar e/ou diminuir a quantidade do produto, além de conseguir pesquisar pelos produtos por nome, categoria.",
+        tools: [
+          "ReactJS",
+          "ContextAPI",
+          "Axios",
+          "Styled-Components",
+          "Chakra UI",
+        ],
+        github: "https://github.com/victoriavianx/projeto-hamburgueria",
+        application: "https://vic-burguer.netlify.app/",
+      },
     ],
   };
 
