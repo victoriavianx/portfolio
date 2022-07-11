@@ -7,7 +7,8 @@ export const Container = styled.div`
   width: 90%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
-  margin: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
   max-width: 370px;
 
   ul {
