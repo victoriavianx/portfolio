@@ -57,6 +57,23 @@ export const ImageBox = styled.div`
     width: 240px;
     height: 453px;
   }
+
+  @media (min-width: 1440px) {
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+
+    @keyframes float {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-30px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+    }
+  }
 `;
 
 export const Imagem = styled.img`

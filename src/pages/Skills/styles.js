@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.section`
   margin-top: 9rem;
   padding-top: 5rem;
-  margin-bottom: 4rem;
   width: 100%;
   display: flex;
   align-items: center;
