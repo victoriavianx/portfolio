@@ -5,7 +5,7 @@ export const Container = styled.footer`
   position: static;
   bottom: 0;
   width: 100%;
-  height: 250px;
+  height: 290px;
   background-color: #b894fc;
 
   span {

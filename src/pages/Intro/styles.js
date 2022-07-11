@@ -113,26 +113,25 @@ export const SocialMedia = styled.div`
     }
   }
 
-  @media (min-width: 820px) {
-    bottom: 25rem;
+  @media (min-width: 770px) {
+    left: 4rem;
+    top: 30rem;
   }
 
-  @media (min-width: 912px) {
-    bottom: 35rem;
-  }
-
-  @media (min-width: 1024px) {
-    bottom: 5rem;
-  }
-
-  @media (min-width: 1280px) {
-    margin-left: 9.5rem;
+  @media (min-width: 1200px) {
+    left: 12rem;
   }
 
   @media (min-width: 1440px) {
-    bottom: 10rem;
-    margin-left: 0;
-    left: 15rem;
+    left: 18rem;
+  }
+
+  @media (min-width: 1632px) {
+    margin-left: 5rem;
+  }
+
+  @media (min-width: 1700px) {
+    margin-left: 10rem;
   }
 `;
 
