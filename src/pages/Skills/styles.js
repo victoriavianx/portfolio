@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 4rem;
+  margin-bottom: 4rem;
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -16,7 +16,7 @@ export const Container = styled.section`
 
 export const BoxTechs = styled.div`
   margin-top: 3rem;
-  width: 90vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   max-width: 768px;
@@ -27,8 +27,7 @@ export const BoxTechs = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 90vw;
-  height: 40vh;
+  width: 80vw;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
@@ -45,7 +44,10 @@ export const Content = styled.div`
   }
 
   ul {
+    margin-bottom: 1rem;
+
     li {
+      font-size: 0.9rem;
       margin: 1rem;
       display: flex;
       align-items: center;
@@ -53,6 +55,14 @@ export const Content = styled.div`
       svg {
         margin: 0 1rem;
         color: var(--title-color);
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    ul {
+      li {
+        font-size: 1rem;
       }
     }
   }
