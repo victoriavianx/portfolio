@@ -2,14 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 9rem;
+  padding-top: 5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  span {
-    margin-top: 1.5rem;
-  }
 
   h3 {
     font-size: 1.75rem;
