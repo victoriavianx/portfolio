@@ -24,11 +24,11 @@ const Menu = () => {
             <BiBriefcase />
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to={"contato"}>
             <FiMessageSquare />
           </Link>
-        </li>
+        </li> */}
         <li>
           <a href={Curriculum} download>
             <FiUser />
