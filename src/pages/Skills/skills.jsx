@@ -9,7 +9,7 @@ const Skills = () => {
   const { frontend, backend } = code;
 
   return (
-    <Container>
+    <Container id="skills">
       <span>Conhecimento</span>
       <h3>Minhas Habilidades</h3>
       <BoxTechs>
