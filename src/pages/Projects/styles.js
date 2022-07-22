@@ -6,6 +6,7 @@ export const Container = styled.section`
   align-items: center;
   flex-direction: column;
   margin-top: 9rem;
+  margin-bottom: 5rem;
   max-width: 768px;
 
   @media (min-width: 540px) {

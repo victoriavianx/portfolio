@@ -3,7 +3,7 @@ import { GlobalStyles } from "./styles/global";
 import { themes } from "./theme";
 import { useContext } from "react";
 import { ThemeContext } from "./providers/Theme/theme";
-import Portfolio from "./pages";
+import Routes from "./routes";
 
 function App() {
   const { currentTheme } = useContext(ThemeContext);
@@ -11,7 +11,7 @@ function App() {
   return (
     <ThemeProvider theme={themes[currentTheme]}>
       <GlobalStyles />
-      <Portfolio />
+      <Routes />
     </ThemeProvider>
   );
 }

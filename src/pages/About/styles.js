@@ -1,8 +1,22 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
+
+const appearFromRight = keyframes`
+from{
+    opacity: 0;
+    transform: translateX(50px)
+}
+
+to {
+    opacity: 1;
+    transform: translateX(0px)
+}
+`;
 
 export const Container = styled.section`
-  margin-top: 9rem;
-  padding-top: 5rem;
+  /* overflow-y: hidden;
+  animation: ${appearFromRight} 1s; */
+  margin-top: 5rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -20,6 +34,7 @@ export const Container = styled.section`
 `;
 
 export const Content = styled.div`
+  padding-bottom: 6rem;
   margin-top: 3rem;
 `;
 

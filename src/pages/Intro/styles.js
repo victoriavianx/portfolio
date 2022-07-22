@@ -1,10 +1,26 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
+
+const appearFromRight = keyframes`
+from{
+    opacity: 0;
+    transform: translateX(50px)
+}
+
+to {
+    opacity: 1;
+    transform: translateX(0px)
+}
+`;
 
 export const Container = styled.section`
+  /* overflow-y: hidden;
+  animation: ${appearFromRight} 1s; */
   width: 100%;
 `;
 
 export const Box = styled.div`
+  padding-bottom: 9rem;
   margin-top: 5rem;
   display: flex;
   justify-content: center;

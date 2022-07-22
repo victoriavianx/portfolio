@@ -1,39 +1,33 @@
-import {
-  FiHome,
-  FiUser,
-  FiBook,
-  FiMessageSquare,
-  FiPaperclip,
-} from "react-icons/fi";
+import { FiHome, FiUser, FiBook, FiPaperclip } from "react-icons/fi";
 import { BiBriefcase } from "react-icons/bi";
 import { Container } from "./styles";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Curriculum from "../../assets/Currículo - Victoria Viana Garcia.pdf";
-import { HashLink } from "react-router-hash-link";
+//import { HashLink } from "react-router-hash-link";
 
 const Menu = () => {
   return (
     <Container>
       <ul>
         <li>
-          <HashLink to={"/#"}>
+          <Link to={"/"}>
             <FiHome />
-          </HashLink>
+          </Link>
         </li>
         <li>
-          <HashLink to={"#sobre"}>
+          <Link to={"/sobre"}>
             <FiUser />
-          </HashLink>
+          </Link>
         </li>
         <li>
-          <HashLink to={"#skills"}>
+          <Link to={"/skills"}>
             <FiBook />
-          </HashLink>
+          </Link>
         </li>
         <li>
-          <HashLink to={"#projetos"}>
+          <Link to={"/projetos"}>
             <BiBriefcase />
-          </HashLink>
+          </Link>
         </li>
         {/* <li>
           <Link to={"contato"}>
