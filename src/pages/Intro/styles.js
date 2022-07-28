@@ -20,7 +20,7 @@ export const Container = styled.section`
 `;
 
 export const Box = styled.div`
-  padding-bottom: 9rem;
+  padding-bottom: 10rem;
   margin-top: 5rem;
   display: flex;
   justify-content: center;
