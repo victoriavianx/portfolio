@@ -2,7 +2,7 @@ import { FiHome, FiUser, FiBook, FiPaperclip } from "react-icons/fi";
 import { BiBriefcase } from "react-icons/bi";
 import { Container } from "./styles";
 import { Link } from "react-router-dom";
-import Curriculum from "../../assets/Currículo - Victoria Viana Garcia.pdf";
+import Curriculum from "../../assets/Currículo - Victoria Viana Garcia, Full-Stack.pdf";
 //import { HashLink } from "react-router-hash-link";
 
 const Menu = () => {
