@@ -20,7 +20,14 @@ export const DataProvider = ({ children }) => {
         "Styled-Components",
         "Chakra UI",
       ],
-      backend: ["NodeJS", " Express", "PostgreSQL", "Docker"],
+      backend: [
+        "NodeJS",
+        "Express",
+        "TypeScript",
+        "Python",
+        "Django",
+        "PostgreSQL",
+      ],
     },
     projects: [
       {
