@@ -5,6 +5,12 @@ const lightTheme = {
     backgroundColor: "var(--background-light-mode)",
     color: "var(--font-dark-color)",
   },
+  div: {
+    backgroundColor: "var(--background-dark-mode)",
+  },
+  button: {
+    color: "var(--font-light-color)",
+  },
   h1: {
     color: "var(--font-dark-color)",
   },
@@ -28,6 +34,12 @@ const darkTheme = {
   header: {
     backgroundColor: "var(--background-dark-mode)",
     color: "var(--font-light-color)",
+  },
+  div: {
+    backgroundColor: "var(--background-light-mode)",
+  },
+  button: {
+    color: "var(--font-dark-color)",
   },
   h1: {
     color: "var(--font-light-color)",
