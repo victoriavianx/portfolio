@@ -5,7 +5,7 @@ export const Container = styled.footer`
   position: static;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -46,6 +46,13 @@ export const Content = styled.div`
   span {
     font-size: 0.6rem;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    svg {
+      margin: 0 0.2rem;
+    }
   }
 `;
 
