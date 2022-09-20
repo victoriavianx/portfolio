@@ -7,7 +7,7 @@ import Projects from "../pages/Projects/projects";
 import Skills from "../pages/Skills/skills";
 import Footer from "../components/Footer/footer";
 import { Container } from "./styles";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 
 const Routes = () => {
   const location = useLocation();
