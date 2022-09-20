@@ -60,6 +60,36 @@ export const DataProvider = ({ children }) => {
         github: "https://github.com/victoriavianx/projeto-hamburgueria",
         application: "https://vic-burguer.netlify.app/",
       },
+      {
+        name: "CRUD: Usuário",
+        description:
+          "Este projeto é uma API básica que permite a criação, listagem, atualização e deleção de usuário, além de logar o usuário.",
+        tools: ["NodeJS", "Express", "Bcryptjs", "JWT", "Uuid", "Yup"],
+        github: "https://github.com/victoriavianx/crud-usuario",
+        application: "https://victoriavianx.github.io/crud-usuario-doc/",
+      },
+      {
+        name: "TypeScript: CRUD de Usuário",
+        description:
+          "Este projeto foi um avanço em relação a criação de uma API CRUD comum. A criação da API dessa vez foi Express com TypeScript. A API permite a criação, listagem, atualização e deleção de usuário.",
+        tools: ["NodeJS", "Express", "TypeScript", "TypeORM", "PostgreSQL"],
+        github: "https://github.com/victoriavianx/crud-ts",
+        application: "https://victoriavianx.github.io/crud-ts-doc/",
+      },
+      {
+        name: "Komercio",
+        description:
+          "Komercio é um projeto que simula a API para um site de compra e venda.",
+        tools: [
+          "Python",
+          "Django",
+          "Django Rest-Framework",
+          "PostgreSQL",
+          "Heroku",
+        ],
+        github: "https://github.com/victoriavianx/komercio",
+        application: "https://komercio-api.herokuapp.com/api/docs/",
+      },
     ],
   };
 
