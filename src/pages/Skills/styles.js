@@ -24,6 +24,10 @@ export const Container = styled.section`
   flex-direction: column;
   max-width: 768px;
 
+  h3 {
+    font-size: 1.2rem;
+  }
+
   @media (min-width: 768px) {
     height: 80vh;
   }

@@ -23,7 +23,7 @@ export const Container = styled.section`
   align-items: center;
 
   h3 {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
   }
 
   div {

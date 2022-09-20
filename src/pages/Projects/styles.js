@@ -9,6 +9,10 @@ export const Container = styled.section`
   margin-bottom: 5rem;
   max-width: 768px;
 
+  h3 {
+    font-size: 1.3rem;
+  }
+
   @media (min-width: 540px) {
     height: 68vh;
   }
